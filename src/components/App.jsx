@@ -24,11 +24,11 @@ const App = () => {
   }, [contacts]);
 
   const addContact = ({ name, number }) => {
-    const contact = {
-      id: nanoid(),
-      name,
-      number,
-    };
+    // const contact = {
+    //   id: nanoid(),
+    //   name,
+    //   number,
+    // };
 
     if (
       contacts.find(
